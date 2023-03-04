@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C2FB511-0EA9-49BC-A501-0C58833DEEB6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OSFEver1</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="Aim.h" />
+    <ClInclude Include="AreaSpell.h" />
+    <ClInclude Include="BackGroundUI.h" />
+    <ClInclude Include="Beam.h" />
+    <ClInclude Include="BeamLineEffect.h" />
+    <ClInclude Include="BitmapMgr.h" />
+    <ClInclude Include="BombLight.h" />
+    <ClInclude Include="Bracer.h" />
+    <ClInclude Include="BuffSpell.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="CollilsionMgr.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="DamageUI.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="DogPet.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectMgr.h" />
+    <ClInclude Include="Enemie.h" />
+    <ClInclude Include="EntireSpell.h" />
+    <ClInclude Include="ExpDropEffect.h" />
+    <ClInclude Include="ExplodeEffect.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FateLine.h" />
+    <ClInclude Include="FireRain.h" />
+    <ClInclude Include="Firestorm.h" />
+    <ClInclude Include="FoxPet.h" />
+    <ClInclude Include="Gate.h" />
+    <ClInclude Include="GateBeam.h" />
+    <ClInclude Include="GateBeamer.h" />
+    <ClInclude Include="GateBullet.h" />
+    <ClInclude Include="GateCannon.h" />
+    <ClInclude Include="GateMissile.h" />
+    <ClInclude Include="GateMissiler.h" />
+    <ClInclude Include="GateSweeper.h" />
+    <ClInclude Include="Hailcaster.h" />
+    <ClInclude Include="HailStorm.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="HealEffect.h" />
+    <ClInclude Include="HealOrb.h" />
+    <ClInclude Include="HitEffect.h" />
+    <ClInclude Include="IceNeedle.h" />
+    <ClInclude Include="InventoryUI.h" />
+    <ClInclude Include="Liger.h" />
+    <ClInclude Include="LightBall.h" />
+    <ClInclude Include="LightBallRain.h" />
+    <ClInclude Include="LightSwordEffect.h" />
+    <ClInclude Include="LightSwordRain.h" />
+    <ClInclude Include="LightSwordShot.h" />
+    <ClInclude Include="MagicFire.h" />
+    <ClInclude Include="MapUI.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MouseMgr.h" />
+    <ClInclude Include="MusicEffect.h" />
+    <ClInclude Include="MusicPattern.h" />
+    <ClInclude Include="MusicShot.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="NextUI.h" />
+    <ClInclude Include="ParticleEffect.h" />
+    <ClInclude Include="Pet.h" />
+    <ClInclude Include="PlayerDead.h" />
+    <ClInclude Include="PlayerUI.h" />
+    <ClInclude Include="PlayerWin.h" />
+    <ClInclude Include="Ragnarok.h" />
+    <ClInclude Include="Reaper.h" />
+    <ClInclude Include="Reward.h" />
+    <ClInclude Include="RewardUI.h" />
+    <ClInclude Include="RhythmEffect.h" />
+    <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="SeraDropEffect.h" />
+    <ClInclude Include="Serif.h" />
+    <ClInclude Include="SpawnSpell.h" />
+    <ClInclude Include="SpawnTurretGun.h" />
+    <ClInclude Include="SpawnTurretLaser.h" />
+    <ClInclude Include="SpawnViolette.h" />
+    <ClInclude Include="SpellMusicShot.h" />
+    <ClInclude Include="Stage_Gate.h" />
+    <ClInclude Include="Sunshine.h" />
+    <ClInclude Include="Tile_Blast.h" />
+    <ClInclude Include="ShieldCatch.h" />
+    <ClInclude Include="ShieldEffect.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="ShopKeeper.h" />
+    <ClInclude Include="ShopUI.h" />
+    <ClInclude Include="ShotSpell.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="Speaker.h" />
+    <ClInclude Include="SpeakerSpawn.h" />
+    <ClInclude Include="Spell.h" />
+    <ClInclude Include="Stage2.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="Stage4.h" />
+    <ClInclude Include="Stage_Serif.h" />
+    <ClInclude Include="SuperMiniGun.h" />
+    <ClInclude Include="Thunder.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="LogoScene.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MyBitmap.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="OSFEver1.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TileMgr.h" />
+    <ClInclude Include="TurretBullet.h" />
+    <ClInclude Include="TurretGun.h" />
+    <ClInclude Include="TurretLaser.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Violette.h" />
+    <ClInclude Include="WingSword.h" />
+    <ClInclude Include="Yami.h" />
+    <ClInclude Include="YamiShot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aim.cpp" />
+    <ClCompile Include="AreaSpell.cpp" />
+    <ClCompile Include="BackGroundUI.cpp" />
+    <ClCompile Include="Beam.cpp" />
+    <ClCompile Include="BeamLineEffect.cpp" />
+    <ClCompile Include="BitmapMgr.cpp" />
+    <ClCompile Include="BombLight.cpp" />
+    <ClCompile Include="Bracer.cpp" />
+    <ClCompile Include="BuffSpell.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="CollilsionMgr.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="DamageUI.cpp" />
+    <ClCompile Include="DogPet.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectMgr.cpp" />
+    <ClCompile Include="Enemie.cpp" />
+    <ClCompile Include="EntireSpell.cpp" />
+    <ClCompile Include="ExpDropEffect.cpp" />
+    <ClCompile Include="ExplodeEffect.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FateLine.cpp" />
+    <ClCompile Include="FireRain.cpp" />
+    <ClCompile Include="Firestorm.cpp" />
+    <ClCompile Include="FoxPet.cpp" />
+    <ClCompile Include="Gate.cpp" />
+    <ClCompile Include="GateBeam.cpp" />
+    <ClCompile Include="GateBeamer.cpp" />
+    <ClCompile Include="GateBullet.cpp" />
+    <ClCompile Include="GateCannon.cpp" />
+    <ClCompile Include="GateMissile.cpp" />
+    <ClCompile Include="GateMissiler.cpp" />
+    <ClCompile Include="GateSweeper.cpp" />
+    <ClCompile Include="Hailcaster.cpp" />
+    <ClCompile Include="HailStorm.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="HealEffect.cpp" />
+    <ClCompile Include="HealOrb.cpp" />
+    <ClCompile Include="HitEffect.cpp" />
+    <ClCompile Include="IceNeedle.cpp" />
+    <ClCompile Include="InventoryUI.cpp" />
+    <ClCompile Include="Liger.cpp" />
+    <ClCompile Include="LightBall.cpp" />
+    <ClCompile Include="LightBallRain.cpp" />
+    <ClCompile Include="LightSwordEffect.cpp" />
+    <ClCompile Include="LightSwordRain.cpp" />
+    <ClCompile Include="LightSwordShot.cpp" />
+    <ClCompile Include="MagicFire.cpp" />
+    <ClCompile Include="MapUI.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MouseMgr.cpp" />
+    <ClCompile Include="MusicEffect.cpp" />
+    <ClCompile Include="MusicPattern.cpp" />
+    <ClCompile Include="MusicShot.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="NextUI.cpp" />
+    <ClCompile Include="ParticleEffect.cpp" />
+    <ClCompile Include="Pet.cpp" />
+    <ClCompile Include="PlayerDead.cpp" />
+    <ClCompile Include="PlayerUI.cpp" />
+    <ClCompile Include="PlayerWin.cpp" />
+    <ClCompile Include="Ragnarok.cpp" />
+    <ClCompile Include="Reaper.cpp" />
+    <ClCompile Include="Reward.cpp" />
+    <ClCompile Include="RewardUI.cpp" />
+    <ClCompile Include="RhythmEffect.cpp" />
+    <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="SeraDropEffect.cpp" />
+    <ClCompile Include="Serif.cpp" />
+    <ClCompile Include="SpawnSpell.cpp" />
+    <ClCompile Include="SpawnTurretGun.cpp" />
+    <ClCompile Include="SpawnTurretLaser.cpp" />
+    <ClCompile Include="SpawnViolette.cpp" />
+    <ClCompile Include="SpellMusicShot.cpp" />
+    <ClCompile Include="Stage_Gate.cpp" />
+    <ClCompile Include="Sunshine.cpp" />
+    <ClCompile Include="Tile_Blast.cpp" />
+    <ClCompile Include="ShieldCatch.cpp" />
+    <ClCompile Include="ShieldEffect.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="ShopKeeper.cpp" />
+    <ClCompile Include="ShopUI.cpp" />
+    <ClCompile Include="ShotSpell.cpp" />
+    <ClCompile Include="Slot.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="Speaker.cpp" />
+    <ClCompile Include="SpeakerSpawn.cpp" />
+    <ClCompile Include="Spell.cpp" />
+    <ClCompile Include="Stage2.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="Stage4.cpp" />
+    <ClCompile Include="Stage_Serif.cpp" />
+    <ClCompile Include="SuperMiniGun.cpp" />
+    <ClCompile Include="Thunder.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="LogoScene.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MyBitmap.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="OSFEver1.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp" />
+    <ClCompile Include="TurretBullet.cpp" />
+    <ClCompile Include="TurretGun.cpp" />
+    <ClCompile Include="TurretLaser.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Violette.cpp" />
+    <ClCompile Include="WingSword.cpp" />
+    <ClCompile Include="Yami.cpp" />
+    <ClCompile Include="YamiShot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OSFEver1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="OSFEver1.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

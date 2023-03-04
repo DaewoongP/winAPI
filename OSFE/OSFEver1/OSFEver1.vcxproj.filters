@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{a0bc18ab-0057-40ed-b596-c83f1cf51dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{82eb5af6-377f-4602-bc5c-42d1ae439bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Tile">
+      <UniqueIdentifier>{84c5c2ae-ba50-4b3f-aac8-25bf8eadaadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell">
+      <UniqueIdentifier>{e50d3cc0-c090-4460-ac6a-69ae8edf1df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot">
+      <UniqueIdentifier>{45e94d55-d194-4f95-9917-2038116a1194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\00. Bracer">
+      <UniqueIdentifier>{b62966ac-c265-449f-b821-15bab01e8c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\01. IceNeedle">
+      <UniqueIdentifier>{87530035-60f1-4bec-9055-762ed26eeb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun">
+      <UniqueIdentifier>{7a106785-cf86-444c-a06c-b0a67ea2be8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun\Bullet">
+      <UniqueIdentifier>{41307321-b690-4ce3-9285-a158ad71d621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\01. Area">
+      <UniqueIdentifier>{d232cdf8-8fde-4ec8-b643-742775662a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\01. Area\00. Firestorm">
+      <UniqueIdentifier>{13aa3ef7-0efa-4f54-b04f-20d06bd9b4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\01. Area\00. Firestorm\FireRain">
+      <UniqueIdentifier>{f86b7236-4ef2-4901-b10d-a9de81434013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\02. Buff">
+      <UniqueIdentifier>{50329106-96d8-44b4-b976-d1dd5e41b359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\02. Buff\00. ShieldCatch">
+      <UniqueIdentifier>{f9daa451-af53-45aa-b531-9fae583b3d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\03. Entire">
+      <UniqueIdentifier>{eecead04-c889-4244-a178-d04a44d35ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\03. Entire\00. EXPLOSION">
+      <UniqueIdentifier>{772db257-9f70-45d1-b783-56ac180ab7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\03. Entire\01. Thunder">
+      <UniqueIdentifier>{7ad80ae4-cb1a-4b46-9176-73c490e922c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\03. Entire\02. Ragnarok">
+      <UniqueIdentifier>{17c60815-8902-40ea-b67c-7c53584a0d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature">
+      <UniqueIdentifier>{89d5eb8d-d15d-433b-af4f-c7a1eb6200e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\00. Player">
+      <UniqueIdentifier>{5be8f970-9095-4c69-85ac-53ac67644989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\00. Player\Deck">
+      <UniqueIdentifier>{a74472f0-bc5e-403e-9dca-50a4414175eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\00. Player\Slot">
+      <UniqueIdentifier>{0a4022dd-3245-4248-b13e-4027a7b3bc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie">
+      <UniqueIdentifier>{399e10cd-0edf-4e97-81f0-6724a6c06041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Liger">
+      <UniqueIdentifier>{514a9d89-0c0d-4563-aaf0-11b3991379fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Reaper">
+      <UniqueIdentifier>{13bec97c-06da-4ad9-9590-c747f5bff4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster">
+      <UniqueIdentifier>{37217a65-726c-4a7e-9dd0-e2b11c95d3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster\HailStorm">
+      <UniqueIdentifier>{562f1378-0b5c-4eac-b9e2-ce35a0448a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette">
+      <UniqueIdentifier>{e5260d4d-3d75-4bb8-9dcc-35be9a4ac76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Beam">
+      <UniqueIdentifier>{8504ffdd-5f95-4793-a9f9-87009b83fcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker">
+      <UniqueIdentifier>{890d1bf3-24ea-407b-a754-48da5ead7c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker\SpeakerSpawn">
+      <UniqueIdentifier>{9e39a2c3-6a22-42d5-8f01-55079c0f4d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicShot">
+      <UniqueIdentifier>{9288e0f4-bbba-4be7-86d2-8da89cff6df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern">
+      <UniqueIdentifier>{40804e4e-01c1-4c24-bcae-a057ebdfa3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern\FateLine">
+      <UniqueIdentifier>{c67c8577-c49d-4e2c-b663-9edb9bad3fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\02. ShopKeeper">
+      <UniqueIdentifier>{d3cee3a9-3b43-45c8-938c-298f9106456a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\02. ShopKeeper\Shop">
+      <UniqueIdentifier>{c9330701-ca0f-404f-90ba-53496fb9c1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene">
+      <UniqueIdentifier>{b3d30d0f-3d5c-44ad-af39-0ea6488fc310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\00. Logo">
+      <UniqueIdentifier>{be314c07-7194-4b8a-965a-00d8bf5e02e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\01. Menu">
+      <UniqueIdentifier>{898860d3-bc2a-47f0-803d-413b9d19348b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\02. Stage">
+      <UniqueIdentifier>{026e8104-60b2-472f-9321-f377c6314ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\03. Reward">
+      <UniqueIdentifier>{944748d4-feb8-4b1d-bb4d-31e7ba4da807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI">
+      <UniqueIdentifier>{ae017c0e-71f4-456e-b130-8a1d25ba6e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\BackGroundUI">
+      <UniqueIdentifier>{3903d522-4361-4134-9e7d-259debfb8b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\ShopUI">
+      <UniqueIdentifier>{37958baa-fd0d-46fc-9f92-25521c76800d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\InventoryUI">
+      <UniqueIdentifier>{895c9daf-6bce-415f-9410-0564aa908ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\PlayerUI">
+      <UniqueIdentifier>{f26d478d-18e5-490c-bd30-184deffc29d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\MapUI">
+      <UniqueIdentifier>{5b9ba521-c717-4695-9ac3-cbfb8ea9d8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\MapUI\NextUI">
+      <UniqueIdentifier>{ba9f5e99-f7c2-4667-a278-9a8dcb46de58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\DamageUI">
+      <UniqueIdentifier>{a9c6c623-9aa8-4dc7-a0a2-2b851673a827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. UI\RewardUI">
+      <UniqueIdentifier>{8cdc7aa0-d8c5-40fc-a8aa-0c60ee6addc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design">
+      <UniqueIdentifier>{fd2e5e4a-e85a-408c-97d7-4bb596c65c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\BitmapMgr">
+      <UniqueIdentifier>{31d65b16-db6b-4a8f-9c89-f4576e534080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\BitmapMgr\MyBitmap">
+      <UniqueIdentifier>{f8274a3b-9752-44b1-a4f6-e2826ed8db81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\KeyMgr">
+      <UniqueIdentifier>{8bfbea50-328a-44e4-984d-1d6c63995efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\TileMgr">
+      <UniqueIdentifier>{789faee1-da07-4a86-ae66-46f33c4380f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\CollilsionMgr">
+      <UniqueIdentifier>{e2981045-a120-423e-959f-97ed2e41ef54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\AbstractFactory">
+      <UniqueIdentifier>{8d496191-7918-4999-a0e3-e6df74100089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr">
+      <UniqueIdentifier>{095a1396-d80e-4580-95bc-a3fe9fce91d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect">
+      <UniqueIdentifier>{adf938e1-8a1a-4fa9-ac6d-5876b55474fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\MagicFire">
+      <UniqueIdentifier>{9b492405-9399-4928-9368-17b51047581f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\ShieldEffect">
+      <UniqueIdentifier>{5b98eac4-7edb-44c6-a70d-ba222707f6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\Aim">
+      <UniqueIdentifier>{5a78f71a-277b-48a9-be12-7bb7c10efb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\MusicEffect">
+      <UniqueIdentifier>{f2558910-fc5a-4f22-a9df-8860abb80700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\RhythmEffect">
+      <UniqueIdentifier>{ae631b75-3a5c-4e4b-a958-1c987bb73df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\HitEffect">
+      <UniqueIdentifier>{e49f9eb9-7806-4ef6-a50a-b66f7ba8cfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\MouseMgr">
+      <UniqueIdentifier>{5df60039-e177-4ef2-b033-17c4f17cc6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\MouseMgr\Mouse">
+      <UniqueIdentifier>{bdb4b8be-eb0f-4da8-8d13-c8c3e30b9f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\SoundMgr">
+      <UniqueIdentifier>{25d01e4a-cc60-4339-b7af-19153fc620e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\ScrollMgr">
+      <UniqueIdentifier>{0b6b1658-69c6-4d22-b55a-98980f442190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif">
+      <UniqueIdentifier>{ae59073c-18c8-4527-8047-1677e8dc09cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\02. Stage\Serif">
+      <UniqueIdentifier>{9b411e57-1cfe-45fa-a276-e92cf76c8344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\Tile_Blast">
+      <UniqueIdentifier>{88b7578d-dd73-451d-9763-2191efbba925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordShot">
+      <UniqueIdentifier>{5e9c45d8-4b60-4ff8-a997-a14c9f685071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain">
+      <UniqueIdentifier>{7268b2ed-30b4-4900-97d7-b42924d989be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight">
+      <UniqueIdentifier>{ba34a1e6-3048-41ee-9d1c-f6f6403aafc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight\LightBall">
+      <UniqueIdentifier>{a08bd26a-b655-4328-aaff-7d7ed87fb60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\WingSword">
+      <UniqueIdentifier>{41e361d2-d1c5-4352-a8bb-217398a97764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\04. Ending">
+      <UniqueIdentifier>{41367f46-2ef6-4529-b4f1-214ddb3da401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordRain">
+      <UniqueIdentifier>{575e8dc0-945c-4a46-9503-00b687b522b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\LightSwordEffect">
+      <UniqueIdentifier>{6c17b8e3-a1e3-4db5-9abb-3e50ee8488b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\03. Pet">
+      <UniqueIdentifier>{4846dae5-117c-4e4f-98fb-f7eebb90eec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\03. Pet\00. Fox">
+      <UniqueIdentifier>{7fea5a04-eb21-4b98-b3fd-8b35cf1c1ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\03. Pet\00. Fox\HealOrb">
+      <UniqueIdentifier>{053ef3cd-cac8-4400-9c05-8a591741a78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\HealEffect">
+      <UniqueIdentifier>{9d76d443-b4c9-46ef-ae92-ff9ca6a04a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\03. Yami">
+      <UniqueIdentifier>{1823a2be-45e2-4933-a95a-97e50f0176f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\00. Shot\03. Yami\YamiShot">
+      <UniqueIdentifier>{68b2aa00-3cde-4625-8992-f53e64e389b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn">
+      <UniqueIdentifier>{8a50f293-d63e-4a8c-8884-2b4c6d9c1e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\03. Pet\01. Dog">
+      <UniqueIdentifier>{8d9dbb7c-6783-4419-bbb8-c18490ce8e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\SceneMgr">
+      <UniqueIdentifier>{5da3e952-4de3-4180-ae7c-9e0e41b2d64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun">
+      <UniqueIdentifier>{610cf46b-e32a-44ce-808a-be33b711e92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun">
+      <UniqueIdentifier>{95a85ea1-ea8f-4c86-929a-325f81f5e0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun\TurretBullet">
+      <UniqueIdentifier>{d5c51062-82eb-4567-9f18-aebd5073c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser">
+      <UniqueIdentifier>{cc95ecaa-ad04-4a02-b905-805467b51891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser\TurretLaser">
+      <UniqueIdentifier>{4617e7d5-f486-4815-9fb4-5049b79a827f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\ExplodeEffect">
+      <UniqueIdentifier>{aad61079-135c-4270-848d-76fc973b4e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette">
+      <UniqueIdentifier>{7c86d258-0b03-4dfe-b96d-776dd575fd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette\SpellMusicShot">
+      <UniqueIdentifier>{efb72f62-4b93-4538-8280-9907df473d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\02. Stage\Gate">
+      <UniqueIdentifier>{0b182b08-75ee-4650-9253-27182bcb2713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\ParticleEffect">
+      <UniqueIdentifier>{c65e8967-7daf-4a1c-8ff8-efb15de97905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\ExpDropEffect">
+      <UniqueIdentifier>{8792ca71-1f76-4943-bc71-5a9971df1931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\SeraDropEffect">
+      <UniqueIdentifier>{369fc22f-7fa6-441c-bdfe-0e912d56f74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\02. Spell\03. Entire\03. Sunshine">
+      <UniqueIdentifier>{da2d46fc-cdbd-412b-a6a2-0bbc08ebd7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate">
+      <UniqueIdentifier>{4a60fa9b-e3a8-46d1-b6c1-133b7d5cb4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer">
+      <UniqueIdentifier>{f133628c-d288-4ca1-903c-15bc0b2859be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatecannon">
+      <UniqueIdentifier>{87d48b0b-50f7-4451-9963-506f8889ae91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler">
+      <UniqueIdentifier>{eab791aa-7ba6-46a8-a66e-8f6aef925bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper">
+      <UniqueIdentifier>{2ec4e862-d15e-4045-9636-ed709c51d22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer\GateBeam">
+      <UniqueIdentifier>{d146b49e-773f-405a-b7a8-776d990b77be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Design\EffectMgr\Effect\BeamLineEffect">
+      <UniqueIdentifier>{ddc0507e-9e28-4aa0-b00c-2abcf26b58df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler\GateMissile">
+      <UniqueIdentifier>{b721ee0f-f429-4b09-b3f5-32d0496ab965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper\GateBullet">
+      <UniqueIdentifier>{329252eb-6a15-49f1-8cb4-d0b1257a3341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\04. Ending\PlayerDead">
+      <UniqueIdentifier>{05c5391d-031d-4733-b824-d3c7aa1d3058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Scene\04. Ending\PlayerWin">
+      <UniqueIdentifier>{758e53d7-3673-4efa-b706-55be4404d1e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OSFEver1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>소스 파일\04. Design\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapMgr.h">
+      <Filter>소스 파일\04. Design\BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>소스 파일\04. Design\BitmapMgr\MyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\04. Design\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>소스 파일\02. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\04. Design\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>소스 파일\04. Design\TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\01. Object\00. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>소스 파일\01. Object\02. Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotSpell.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemie.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie</Filter>
+    </ClInclude>
+    <ClInclude Include="CollilsionMgr.h">
+      <Filter>소스 파일\04. Design\CollilsionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaSpell.h">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffSpell.h">
+      <Filter>소스 파일\01. Object\02. Spell\02. Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="EntireSpell.h">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire</Filter>
+    </ClInclude>
+    <ClInclude Include="Liger.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Liger</Filter>
+    </ClInclude>
+    <ClInclude Include="Bracer.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\00. Bracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>소스 파일\01. Object\01. Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>소스 파일\04. Design\EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaper.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Reaper</Filter>
+    </ClInclude>
+    <ClInclude Include="Hailcaster.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster</Filter>
+    </ClInclude>
+    <ClInclude Include="HailStorm.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster\HailStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\00. EXPLOSION</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicFire.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\MagicFire</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player\Deck</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundUI.h">
+      <Filter>소스 파일\03. UI\BackGroundUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player\Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="IceNeedle.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\01. IceNeedle</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperMiniGun.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Firestorm.h">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area\00. Firestorm</Filter>
+    </ClInclude>
+    <ClInclude Include="FireRain.h">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area\00. Firestorm\FireRain</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldCatch.h">
+      <Filter>소스 파일\01. Object\02. Spell\02. Buff\00. ShieldCatch</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ShieldEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeper.h">
+      <Filter>소스 파일\01. Object\01. Creature\02. ShopKeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopUI.h">
+      <Filter>소스 파일\03. UI\ShopUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryUI.h">
+      <Filter>소스 파일\03. UI\InventoryUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>소스 파일\01. Object\01. Creature\02. ShopKeeper\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>소스 파일\03. UI\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\04. Design\MouseMgr\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>소스 파일\04. Design\MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Violette.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicShot.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Speaker.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicPattern.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\MusicEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="FateLine.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern\FateLine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeakerSpawn.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker\SpeakerSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="RhythmEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\RhythmEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\04. Design\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\HitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="MapUI.h">
+      <Filter>소스 파일\03. UI\MapUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunder.h">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\01. Thunder</Filter>
+    </ClInclude>
+    <ClInclude Include="NextUI.h">
+      <Filter>소스 파일\03. UI\MapUI\NextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ragnarok.h">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\02. Ragnarok</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>소스 파일\04. Design\ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageUI.h">
+      <Filter>소스 파일\03. UI\DamageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>소스 파일\02. Scene\01. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RewardUI.h">
+      <Filter>소스 파일\03. UI\RewardUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Reward.h">
+      <Filter>소스 파일\02. Scene\03. Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="Serif.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Serif.h">
+      <Filter>소스 파일\02. Scene\02. Stage\Serif</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Blast.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\Tile_Blast</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSwordShot.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordShot</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBallRain.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBall.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight\LightBall</Filter>
+    </ClInclude>
+    <ClInclude Include="BombLight.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight</Filter>
+    </ClInclude>
+    <ClInclude Include="WingSword.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\WingSword</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSwordRain.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordRain</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="FoxPet.h">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\00. Fox</Filter>
+    </ClInclude>
+    <ClInclude Include="HealEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\HealEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="HealOrb.h">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\00. Fox\HealOrb</Filter>
+    </ClInclude>
+    <ClInclude Include="Yami.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\03. Yami</Filter>
+    </ClInclude>
+    <ClInclude Include="YamiShot.h">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\03. Yami\YamiShot</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnSpell.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="DogPet.h">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\01. Dog</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnTurretGun.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretGun.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretBullet.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun\TurretBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnTurretLaser.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretLaser.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser\TurretLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ExplodeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSwordEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\LightSwordEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnViolette.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellMusicShot.h">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette\SpellMusicShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Gate.h">
+      <Filter>소스 파일\02. Scene\02. Stage\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SeraDropEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\SeraDropEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpDropEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\ExpDropEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunshine.h">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\03. Sunshine</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="GateBeamer.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer</Filter>
+    </ClInclude>
+    <ClInclude Include="GateBeam.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer\GateBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamLineEffect.h">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\BeamLineEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GateMissiler.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler</Filter>
+    </ClInclude>
+    <ClInclude Include="GateMissile.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler\GateMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="GateSweeper.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="GateBullet.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper\GateBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GateCannon.h">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatecannon</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDead.h">
+      <Filter>소스 파일\02. Scene\04. Ending\PlayerDead</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWin.h">
+      <Filter>소스 파일\02. Scene\04. Ending\PlayerWin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OSFEver1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapMgr.cpp">
+      <Filter>소스 파일\04. Design\BitmapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>소스 파일\04. Design\BitmapMgr\MyBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\04. Design\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>소스 파일\02. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\04. Design\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>소스 파일\04. Design\TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\01. Object\00. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotSpell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemie.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie</Filter>
+    </ClCompile>
+    <ClCompile Include="CollilsionMgr.cpp">
+      <Filter>소스 파일\04. Design\CollilsionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaSpell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffSpell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\02. Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="EntireSpell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire</Filter>
+    </ClCompile>
+    <ClCompile Include="Liger.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Liger</Filter>
+    </ClCompile>
+    <ClCompile Include="Bracer.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\00. Bracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>소스 파일\01. Object\01. Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaper.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Reaper</Filter>
+    </ClCompile>
+    <ClCompile Include="Hailcaster.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster</Filter>
+    </ClCompile>
+    <ClCompile Include="HailStorm.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Hailcaster\HailStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\00. EXPLOSION</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicFire.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\MagicFire</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player\Deck</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundUI.cpp">
+      <Filter>소스 파일\03. UI\BackGroundUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\00. Player\Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="IceNeedle.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\01. IceNeedle</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperMiniGun.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\02. SuperMiniGun\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Firestorm.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area\00. Firestorm</Filter>
+    </ClCompile>
+    <ClCompile Include="FireRain.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\01. Area\00. Firestorm\FireRain</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldCatch.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\02. Buff\00. ShieldCatch</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ShieldEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeper.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\02. ShopKeeper</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopUI.cpp">
+      <Filter>소스 파일\03. UI\ShopUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryUI.cpp">
+      <Filter>소스 파일\03. UI\InventoryUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\02. ShopKeeper\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>소스 파일\03. UI\PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\04. Design\MouseMgr\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>소스 파일\04. Design\MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Violette.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicShot.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Speaker.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPattern.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\MusicEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="FateLine.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\MusicPattern\FateLine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeakerSpawn.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Violette\Speaker\SpeakerSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="RhythmEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\RhythmEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\04. Design\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\HitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="MapUI.cpp">
+      <Filter>소스 파일\03. UI\MapUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\01. Thunder</Filter>
+    </ClCompile>
+    <ClCompile Include="NextUI.cpp">
+      <Filter>소스 파일\03. UI\MapUI\NextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ragnarok.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\02. Ragnarok</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>소스 파일\04. Design\ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageUI.cpp">
+      <Filter>소스 파일\03. UI\DamageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>소스 파일\02. Scene\01. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RewardUI.cpp">
+      <Filter>소스 파일\03. UI\RewardUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Reward.cpp">
+      <Filter>소스 파일\02. Scene\03. Reward</Filter>
+    </ClCompile>
+    <ClCompile Include="Serif.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Serif.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage\Serif</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Blast.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\Tile_Blast</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSwordShot.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordShot</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBallRain.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBall.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight\LightBall</Filter>
+    </ClCompile>
+    <ClCompile Include="BombLight.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightBallRain\BombLight</Filter>
+    </ClCompile>
+    <ClCompile Include="WingSword.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\WingSword</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSwordRain.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Serif\LightSwordRain</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSwordEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\LightSwordEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="FoxPet.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\00. Fox</Filter>
+    </ClCompile>
+    <ClCompile Include="HealEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\HealEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="HealOrb.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\00. Fox\HealOrb</Filter>
+    </ClCompile>
+    <ClCompile Include="Yami.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\03. Yami</Filter>
+    </ClCompile>
+    <ClCompile Include="YamiShot.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\00. Shot\03. Yami\YamiShot</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnSpell.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="DogPet.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\03. Pet\01. Dog</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnTurretGun.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretGun.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretBullet.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretGun\TurretGun\TurretBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnTurretLaser.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretLaser.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnTurretLaser\TurretLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ExplodeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnViolette.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellMusicShot.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\04. Spawn\SpawnViolette\SpellMusicShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Gate.cpp">
+      <Filter>소스 파일\02. Scene\02. Stage\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SeraDropEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\SeraDropEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpDropEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\ParticleEffect\ExpDropEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunshine.cpp">
+      <Filter>소스 파일\01. Object\02. Spell\03. Entire\03. Sunshine</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="GateBeamer.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer</Filter>
+    </ClCompile>
+    <ClCompile Include="GateBeam.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatebeamer\GateBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamLineEffect.cpp">
+      <Filter>소스 파일\04. Design\EffectMgr\Effect\BeamLineEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GateMissiler.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler</Filter>
+    </ClCompile>
+    <ClCompile Include="GateMissile.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatemissiler\GateMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="GateSweeper.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="GateBullet.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\GateSweeper\GateBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GateCannon.cpp">
+      <Filter>소스 파일\01. Object\01. Creature\01. Enemie\Boss_Gate\Gatecannon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDead.cpp">
+      <Filter>소스 파일\02. Scene\04. Ending\PlayerDead</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWin.cpp">
+      <Filter>소스 파일\02. Scene\04. Ending\PlayerWin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OSFEver1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="OSFEver1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
